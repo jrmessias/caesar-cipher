@@ -5,8 +5,11 @@
 ## Execução
 
 Altere as variáveis, `$phrase` e `$size` no arquivo index.php.
+
 A variável `$phrase` é a frase/palavra criptografadao.
+
 A variável `$size` é o tamanho de casas para criptografar/descriptografar.
+
 No console execute o camando `php index.php`.
 
 ## Retorno
@@ -21,9 +24,15 @@ SHA1 Encrypted: 85e3ae754f562aa765758f36f93ee3cd7866f3c4
 ```
 
 1ª linha: quantidade de casas para codificação/decodificação.
+
 2ª linha: frase/palavra original de entrada.
+
 3ª linha: hash SHA1 da frase/palavra original de entrada.
+
 4ª linha: frase/palavra decifrada.
+
 5ª linha: hash SHA1 da frase/palavra decifrada.
+
 6ª linha: frase/palavra codificada a partir da frase/palavra decifrada.
+
 7ª linha: hash SHA1 da frase codificada a partir da frase/palavra decifrada.
